@@ -1,0 +1,83 @@
+.body{
+	background-color: #0000FF;
+}
+
+.content{
+	font-family: comic sans ms;
+}
+
+button{
+	font-size: 10px;
+	height: 50px;
+	width: 145px;
+}
+
+.title{
+	text-align: center;
+	background-color: white;
+	border-style: solid;
+	border-color: red;
+	border-width: 5px;
+	width: 45%;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	padding: 5px;
+}
+
+.table{
+	background-color: white;
+	position: absolute;
+	top: 330px;
+	left: 50%;
+	transform: translate(-50%);
+	border-style: solid;
+	border-color: black;
+	border-width: 3px;
+}
+
+.tabletitle{
+    position: absolute;
+    top: 240px;
+    left: 50%;
+    transform: translate(-50%);
+	background-color: white;
+	border-style: solid;
+	border-color: green;
+	border-width: 5px;
+	padding: 10px;
+}
+
+.impress{
+	position: absolute;
+	left: 180px;
+	top: 200px;
+	transform: rotate(-10deg);
+	z-index: 1;
+}
+
+.bubble1{
+	height: 150px;
+	width: 500px;
+	position: absolute;
+	top: 170px;
+	left: 100px;
+	transform: rotate(-10deg);
+}
+
+.dazzle{
+	position: absolute;
+	right: 260px;
+	top: 190px;
+	transform: rotate(10deg);
+	z-index: 1;
+}
+
+.bubble2{
+	height: 150px;
+	width: 500px;
+	position: absolute;
+	top: 170px;
+	right: 100px;
+	transform: rotate(10deg);
+}
