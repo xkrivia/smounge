@@ -9,7 +9,8 @@
 		<audio id="titleaudio" src="http://www.soundjay.com/button/sounds/button-2.mp3" autostart="false" ></audio>
 		<h1 class="title" onclick="titleSound()"> The All-New Smounge Rat Soundboard! </h1>
 		
-		<h2 class="impress"> Impress your friends! </h2>
+		<audio id="impressaudio" src="http://www.soundjay.com/button/sounds/button-1.mp3" autostart="false"></audio>
+		<h2 class="impress" onclick="impressSound()"> Impress your friends! </h2>
 		<img src="yellowbubble.png" class="bubble1" />
 		
 		<h2 class="dazzle"> Dazzle your enemies! </h2>
@@ -114,6 +115,11 @@
 	<script>
 		function titleSound() {
 			var sound = document.getElementById("titleaudio");
+			sound.play()
+		}
+		
+		function impressSound() {
+			var sound = document.getElementById("impressaudio");
 			sound.play()
 		}
 	</script>
