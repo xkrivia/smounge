@@ -6,7 +6,8 @@
 	</head>
 	<body class="body">
 	<div class="content">
-		<h1 class="title"> The All-New Smounge Rat Soundboard! </h1>
+		<h1 class="title" onclick="title()"> The All-New Smounge Rat Soundboard! </h1>
+		<audio src="http://www.soundjay.com/button/beep-07.wav" id="titleaudio" autostart="false" ></audio>
 		
 		<h2 class="impress"> Impress your friends! </h2>
 		<img src="yellowbubble.png" class="bubble1" />
@@ -110,10 +111,9 @@
 			</tr>
 	</div>
 	<script>
-		function button(){
-			var butt = document.GetElementById("testbutton");
-				if (butt.value == "TEST") {butt.value = "WORKING";}
-				else butt.value = "TEST";
+		function title{
+			var sound = document.getElementById("titleaudio");
+			sound.play()
 		}
 	</script>
 	</body>
